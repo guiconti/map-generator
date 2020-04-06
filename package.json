@@ -1,0 +1,25 @@
+{
+  "name": "map-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "generateData": "node index.js data",
+    "generateImage": "node index.js image",
+    "resizeImage": "node index.js resizeImage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiconti/map-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guiconti/map-generator/issues"
+  },
+  "homepage": "https://github.com/guiconti/map-generator#readme",
+  "dependencies": {
+    "jimp": "^0.10.0",
+    "prettier": "^2.0.2"
+  }
+}
